@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C4B5D3F1C92AE68006BE1A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B5D3E1C92AE68006BE1A3 /* main.m */; };
+		2C4B5D4C1C92AF97006BE1A3 /* NSObject+WFKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B5D4B1C92AF97006BE1A3 /* NSObject+WFKeyValue.m */; };
+		2C4B5D501C965107006BE1A3 /* WFUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4B5D4F1C965107006BE1A3 /* WFUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2C4B5D3B1C92AE68006BE1A3 /* WFExtension */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WFExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4B5D3E1C92AE68006BE1A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C4B5D4A1C92AF97006BE1A3 /* NSObject+WFKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WFKeyValue.h"; sourceTree = "<group>"; };
+		2C4B5D4B1C92AF97006BE1A3 /* NSObject+WFKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WFKeyValue.m"; sourceTree = "<group>"; };
+		2C4B5D4E1C965107006BE1A3 /* WFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFUser.h; sourceTree = "<group>"; };
+		2C4B5D4F1C965107006BE1A3 /* WFUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,28 @@
 			isa = PBXGroup;
 			children = (
 				2C4B5D3E1C92AE68006BE1A3 /* main.m */,
+				2C4B5D4D1C964FA7006BE1A3 /* Bean */,
+				2C4B5D451C92AEAA006BE1A3 /* WFExtension */,
 			);
 			path = WFExtension;
+			sourceTree = "<group>";
+		};
+		2C4B5D451C92AEAA006BE1A3 /* WFExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B5D4A1C92AF97006BE1A3 /* NSObject+WFKeyValue.h */,
+				2C4B5D4B1C92AF97006BE1A3 /* NSObject+WFKeyValue.m */,
+			);
+			path = WFExtension;
+			sourceTree = "<group>";
+		};
+		2C4B5D4D1C964FA7006BE1A3 /* Bean */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B5D4E1C965107006BE1A3 /* WFUser.h */,
+				2C4B5D4F1C965107006BE1A3 /* WFUser.m */,
+			);
+			path = Bean;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4B5D4C1C92AF97006BE1A3 /* NSObject+WFKeyValue.m in Sources */,
+				2C4B5D501C965107006BE1A3 /* WFUser.m in Sources */,
 				2C4B5D3F1C92AE68006BE1A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
